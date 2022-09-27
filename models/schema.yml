@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: sql_server_sales
+    database: gifted-pattern-363804
+    schema: sql_server_sales
+
+    tables:
+      - name: customer
+      - name: salesorderheader
+      - name: salesorderdetail
+      - name: salesperson
